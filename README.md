@@ -41,3 +41,16 @@ Building a chess game around an LLM presents a unique problem: **LLMs frequently
    cd backend
    npm install
    npm start
+
+Are you smarter then AI? **[🎮 Play the Live Game Here](https://chess.ardy.codes.com)**
+
+---
+
+<div align="center">
+  <img src="./backend/docs/gameplay.png" alt="LLM Chess Gameplay Demo" width="600" />
+</div>
+<div align="center">
+  <img src="./backend/docs/checkmate.png" alt="LLM Chess Gameplay Demo" width="600" />
+</div>
+
+---

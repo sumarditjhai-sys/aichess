@@ -127,7 +127,10 @@ app.get("/api/reset", (req, res) => {
     });
 });
 
+if (process.env.NODE_ENV !== 'test') {
+    app.listen(port, () => {
+        console.log(`server is running on port ${port}`);
+    });
+}
 
-app.listen(port, () => {
-    console.log(`server is running on port ${port}`);
-})
+module.exports = app;

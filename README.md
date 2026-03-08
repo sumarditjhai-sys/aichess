@@ -26,7 +26,7 @@ AI Chess is a web application that allows users to play chess against a Large La
    npm install
    npm start
 
-Are you smarter then AI? **[🎮 Play the Live Game Here](https://chess.ardy.codes)**
+Can you beat an AI? **[🎮 Play the Game Here](https://chess.ardy.codes)**
 
 ---
 

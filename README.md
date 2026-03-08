@@ -5,7 +5,7 @@
 ![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=postman&logoColor=white)
 
 ## 📖 Overview
-AI Chess is a web application that allows users to play chess against a Large Language Model (LLM). 
+AI Chess is a web application that allows users to play chess against a Large Language Model (LLM). Can you beat an AI? **[🎮 Play the Game Here](https://chess.ardy.codes)**
 
 ## 🛠️ Tech Stack
 * **Backend:** Node.js, Express.js
@@ -25,8 +25,6 @@ AI Chess is a web application that allows users to play chess against a Large La
    cd backend
    npm install
    npm start
-
-Can you beat an AI? **[🎮 Play the Game Here](https://chess.ardy.codes)**
 
 ---
 

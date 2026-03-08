@@ -11,7 +11,7 @@ AI Chess is a web application that allows users to play chess against a Large La
 * **Backend:** Node.js, Express.js
 * **State Management:** Simple browser localStorage
 * **AI Integration:** [Gemini API]
-* **Frontend:** [Vanilla JS, HTML/CSS]
+* **Frontend:** [Javascript, HTML/CSS]
 
 ## 💻 Local Installation
 

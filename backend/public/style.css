@@ -4,7 +4,7 @@ body {
     align-items: center;
     /* height: 100vh; */
     margin: 0;
-    background-color: #f0d9b5;
+    background: linear-gradient(to right, #ececd0, #a9a98a);
     font-family: sans-serif;
 }
 
@@ -75,9 +75,26 @@ body {
 
 #resetButton {
     margin-top: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 12px 24px;
+    font-size: 18px;
     cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to right, #4CAF50, #8BC34A);
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+#resetButton:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+#resetButton:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .hidden {
@@ -109,7 +126,24 @@ body {
 }
 
 #playAgainButton {
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 12px 24px;
+    font-size: 18px;
     cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to right, #2196F3, #64B5F6);
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+#playAgainButton:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+#playAgainButton:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
